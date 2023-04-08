@@ -9,15 +9,18 @@ public class conditional_Applications {
         int C = sc.nextInt();
 
         if ( B+C>=60 ) {
-            B=B+C-60;
-            A++;
-            if(A>=24){
-                A=A-24;
+            if (A+(B+C)/60>=24) {
+                A=(A+(B+C)/60)-24;
+                B=(B+C)%60;
+            } else {
+                A=(A+(B+C)/60);
+                B=(B+C)%60;
             }
         } else {
             B=B+C;
         }
-        System.out.println(A);
-        System.out.println(B);
+        System.out.print(A);
+        System.out.print(" ");
+        System.out.print(B);
     }
 }
