@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class conditional_Applications {
     public static void main(String[] args) {
-        //현재 시각에 시간을 더한 시각을 출력하는 프로그램
+        //현재 시각에 시간(분)을 더한 시각을 출력하는 프로그램
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
         int B = sc.nextInt();
