@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class MeghodExample {
+public class MethodExample {
 
     public static void main(String[] args) {
 
